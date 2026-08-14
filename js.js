@@ -47,8 +47,6 @@
 
 
 
-
-
 let marks = Number(prompt("Apne marks enter karein (0-100):"));
 
 let grade;
@@ -65,8 +63,8 @@ if (marks >= 90) {
     grade = "Fail";
 }
 
-alert("Aapka Grade hai:" grade);
-
+// Fixed by adding the '+' sign
+alert("Aapka Grade hai: " + grade);
 
 
 
