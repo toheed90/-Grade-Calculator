@@ -63,7 +63,7 @@ if (marks >= 90) {
     grade = "Fail";
 }
 
-// Fixed by adding the '+' sign
+
 alert("Aapka Grade hai: " + grade);
 
 
