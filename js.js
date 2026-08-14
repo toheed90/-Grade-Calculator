@@ -65,7 +65,7 @@ if (marks >= 90) {
     grade = "Fail";
 }
 
-alert("Aapka Grade hai: {   grade}");
+alert("Aapka Grade hai:" grade);
 
 
 
